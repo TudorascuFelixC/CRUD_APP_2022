@@ -11,7 +11,7 @@ const app = express();
 
 dotenv.config({path:'./config.env'})
 
-const PORT = process.env.PORT|| 21
+const PORT = process.env.PORT|| 8080
 
 //log requests
 app.use(morgan('tiny'));
@@ -35,4 +35,4 @@ app.use('/js', express.static(path.resolve(__dirname,"assets/js")))
 //load routers
 app.use('/', require('./server/routes/router'))
 
-app.listen(PORT, ()=>{console.log('Server is running on www.tfk-codes.tech')});
+app.listen(PORT, ()=>{console.log('Server is running on http://localhost:3000/')});
