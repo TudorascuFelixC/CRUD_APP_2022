@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD WEBSITE - 2022</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header id="header">
+<!--NAV BAR-->
+<div class="topnav" id="myTopnav">
+    <a href="/crud_app/index.js">Admin Panel <i class="fas fa-user-gear"></i></a>
+    <a href="/crud_app/include/add_user.ejs">Register <i class="fa fa-address-card"></i></a>
+    <a href="#home">Contact <i class="fa fa-map"></i></a>
+    <a href="../about">About me <i class="fa fa-bookmark"></i></a>
+    <a href="#home">Our products <i class="fa fa-car"></i></a>
+    <a href="#home" class="active">Home <i class="fa fa-home"></i></a>
+        
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+<!--NAV BAR ENDS HERE-->
+<nav>
+    <div class="container">
+        <div class="text-center">
+            <a href="/" class="nav-brand text-dark">User Management System</a>
+        </div>
+    </div>
+</nav>
+
+
+
+<!--SLIDE SHOW START HERE-->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="../img/bugatti.jpg" class="poze">
+      <div class="text">Bugatti</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="../img/ferrari.jpg" class="poze">
+      <div class="text">Ferrari</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="../img/astonmartin.jpg" class="poze">
+      <div class="text">Aston Martin</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+<!--SLIDE SHOW ENDS HERE -->
+
+    <!--HEADER-->
+<h1>PARTEA DE SUS</h1>
+
+
+    
+
+
+
+</header>
