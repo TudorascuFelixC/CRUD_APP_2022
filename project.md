@@ -21,13 +21,6 @@
 
 ---------------------------------------------------------------------
 
-
-
-
-
-
-[test](project.md#jos)
-
 >Introduction
 >The use vehicle market is one of the most profitable businesses, especially >when it has a website. The goal of this project is to build a complete stack >online application for Felix Hypercars. From the backend system, this website >will be able to create CRUD (Create, Read, Update, and Delete) operations with >values taken from the user. In this app you can crate your own user, read all >your informatios, update your informations and delete your user. 
 
@@ -40,6 +33,13 @@ What include the form ?
 -    * Male / Female
 - Status
 -    * Active / Inactive
+  ---------------------------------------------------------------------
+  > In this fig. its showing how add user interface looks like. 
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/form.jpg?raw=true)
+> In this figure add_user.ejs you can preview how the template and how the script was writen.
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/add_user.jpg?raw=true)
+>in this figure is just a preview of database. all the objects.
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/create-user-form.jpg?raw=true)
 
 
 ## System overview
@@ -114,5 +114,8 @@ npm axios - is a library and makes easy to make a request in express application
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/6.jpg?raw=true)
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/7.jpg?raw=true)
 
+
+#redirect to the # post or ## post.
+[test](project.md#jos)
 
 
