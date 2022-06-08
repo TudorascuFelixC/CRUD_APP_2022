@@ -12,7 +12,7 @@ const app = express();
 dotenv.config({path:'./config.env'})
 //TEST
 //if we work on a local host the port will be 8080
-const PORT = process.env.PORT|| 3000
+const PORT = process.env.PORT|| 8080
 
 //log requests
 app.use(morgan('tiny'));
