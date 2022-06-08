@@ -46,4 +46,4 @@ app.use('/js', express.static(path.resolve(__dirname,"assets/js")))
 //This command will load routers from server/routes/router.js
 app.use('/', require('./server/routes/router'))
 
-app.listen(PORT, ()=>{console.log('Server is running on http://localhost:3000/')});
+app.listen(PORT, ()=>{console.log('Server is running on http://localhost:8080/')});
