@@ -11,15 +11,16 @@ const app = express();
 
 dotenv.config({path:'./config.env'})
 
-const PORT = process.env.PORT|| 8080
+//if we work on a local host the port will be 8080
+const PORT = process.env.PORT|| 3000
 
 //log requests
 app.use(morgan('tiny'));
 
-//mongodb connection
+//This is connection between mongodb connection and our server
 connectDB();
 
-//parse request to body-parser
+//Parse request to body-parser
 app.use(bodyparser.urlencoded({extended:true}))
 
 //set view engine
@@ -32,7 +33,7 @@ app.use('/img', express.static(path.resolve(__dirname,"assets/img")))
 app.use('/js', express.static(path.resolve(__dirname,"assets/js")))
 
 
-//load routers
+//This command will load routers from server/routes/router.js
 app.use('/', require('./server/routes/router'))
 
 app.listen(PORT, ()=>{console.log('Server is running on http://localhost:3000/')});

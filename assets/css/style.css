@@ -55,10 +55,14 @@ a {
 }
 
 .text-light{
-    color: #ff0101;
+    color: #ffffff;
     font-weight: bold;
     font-size: 20px;
     
+}
+
+.butoane-radio{
+  color:#ffffff;
 }
 
 .text-gradient{
@@ -234,6 +238,7 @@ table{
     transition: all 250ms ease;
     font-weight: bold;
     font-size: 20px;
+    
 }
 
 .radio input[type='radio']:checked + .radio-label:before{
@@ -260,7 +265,7 @@ table{
 #add_user .form-group .btn{
     width: 100%;
     padding: .9em 1em;
-    background-color:#16db93; 
+    background-color:#161cdb; 
     border: none;
     font-family: 'PT Sans', sans-serif;
     cursor: pointer;
@@ -272,10 +277,16 @@ table{
 
 #update_user .form-group .btn:hover,
 #add_user .form-group .btn:hover{
-    background-color: var(--border);
-    color: var(--border);
-    font-weight: bold;
-    font-size: 20px;
+  width: 100%;
+  padding: .9em 1em;
+  background-color:#00ff3c; 
+  border: none;
+  font-family: 'PT Sans', sans-serif;
+  cursor: pointer;
+  border-radius: .2em;
+  margin: .5em 0;
+  font-weight: bold;
+  font-size: 20px;
 }
 /*BACKGROUND STARTS HERE */
 body, html {
