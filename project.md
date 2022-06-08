@@ -1,9 +1,10 @@
 
-## Solent University 
+# Solent University 
 ## in Partnership with QA (QAHE)
 
 -----------------------------------------
-## _Felix Tudorascu_
+> ## _Felix Tudorascu_
+> ## id: 10103209
 -----------------------------------------
 ## Module Title:	Advanced Database Systems
 ## Module Code:	   QHO541
@@ -15,6 +16,8 @@
 ## WEBSITE CRUD APP-FULLSTACK WEB APPLICATION
 ## Git Repository click here> [https://github.com/TudorascuFelixC](https://github.com/TudorascuFelixC)
 ## View website : [https://websiteappfelix.herokuapp.com/](https://websiteappfelix.herokuapp.com/)
+
+> For the best view of this website i will recomend 1920x1080 / 16:9 / 27 inch monitor.
 
 ---------------------------------------------------------------------
 
@@ -37,7 +40,8 @@ What include the form ?
 -    * Male / Female
 - Status
 -    * Active / Inactive
-  
+
+
 ## System overview
 
 >This project's basic overview is such that it has an architectural framework. >The CRUD Application project has both a front end and a back end. NodeJS, >MongoDB, and Express make up the back end.
@@ -101,8 +105,14 @@ npm mongoose - using this module we are going to connect this project with Mongo
 ```sh
 npm axios - is a library and makes easy to make a request in express application
 ```
-  
-![TEST!](assets/img/Lamborghini-Centenario.jpg)
+# Photos of my website
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/1.jpg?raw=true)
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/2.jpg?raw=true)
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/3.jpg?raw=true)
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/4.jpg?raw=true)
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/5.jpg?raw=true)
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/6.jpg?raw=true)
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/7.jpg?raw=true)
 
 
-# jos
+
