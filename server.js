@@ -11,6 +11,16 @@ const app = express();
 
 dotenv.config({path:'./config.env'})
 //TEST
+var http = require('http');
+
+http.createServer(function(request, response){
+
+    //The following code will print out the incoming request text
+    request.pipe(response);
+
+}).listen(8080, '127.0.0.1');
+
+console.log('Listening on port 8080...');
 //if we work on a local host the port will be 8080
 const PORT = process.env.PORT|| 8080
 
