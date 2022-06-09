@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const morgan = require('morgan');
 const bodyparser = require('body-parser');
 const path = require('path');
-const uri = process.env.MONGODB_URI;
+const uri = process.env.MONGO_URI;
 
 const connectDB = require('./server/database/connection');
 const { options } = require('nodemon/lib/config');
@@ -47,4 +47,4 @@ app.use('/js', express.static(path.resolve(__dirname,"assets/js")))
 //This command will load routers from server/routes/router.js
 app.use('/', require('./server/routes/router'))
 
-app.listen(PORT, ()=>{console.log('Server is running on http://localhost:8080/')});
+app.listen(PORT, ()=>{console.log('Server is running on http://localhost:${8080}/')});
