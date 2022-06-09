@@ -112,14 +112,41 @@ npm axios - is a library and makes easy to make a request in express application
 <br>
 
 # Database Design
-
+### MongoDB
 >MongoDB is a document database that stores data in a JSON-like format. MongoDB features a versatile data format that allows you to store unstructured data, as well as complete indexing and replication support through rich and straightforward APIs.
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/database.jpg?raw=true)
 
+<br>
+
+### Postman
+>Developers may use Postman to design, create, test, and iterate their APIs.
+In this figure you can see how can GET data from Database using POSTMAN.
+https://websiteappfelix.herokuapp.com/api/users
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/postman.jpg?raw=true)
 
 
 <br>
+
+>After i checked evething is working perfect, i created a link to connect my Cluster0 in my application env. (confi.env)
+Replace <password> with the password for the <username> user. 
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/cluster0MongoDB.jpg?raw=true)
+
 <br>
-<br>
+
+
+
+# Security and Scalability
+
+> Secure Hypertext Transfer Protocol is a Hypertext Transfer Protocol extension. It is often used on the Internet and is utilised for secure communication across a computer network. The Transport Layer Security (TLS) or Secure Sockets Layer (SSL) protocol is used to encrypt communication in HTTPS.
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/cluster0MongoDB.jpg?raw=true)
+
+>The connection to this site is using a valid, trusted server certificate issued by Amazon.
+The connection is encrypted and authentificated using TLS 1.2, ECDHE_RSA with P256, and AES_128_GCM.
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/cluster0MongoDB.jpg?raw=true)
+
+
+
+
 
 # Photos of my website
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/1.jpg?raw=true)
@@ -129,6 +156,8 @@ npm axios - is a library and makes easy to make a request in express application
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/5.jpg?raw=true)
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/6.jpg?raw=true)
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/7.jpg?raw=true)
+
+
 
 
 
