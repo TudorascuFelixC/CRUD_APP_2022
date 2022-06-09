@@ -22,7 +22,12 @@
 ---------------------------------------------------------------------
 
 >Introduction <br>
-The use vehicle market is one of the most profitable businesses, especially when it has a website. The goal of this project is to build a complete stack online application for Felix Hypercars. From the backend system, this website will be able to create CRUD (Create, Read, Update, and Delete) operations with values taken from the user. In this app you can crate your own user, read all your informatios, update your informations and delete your user. 
+The use vehicle market is one of the most profitable businesses, especially when it has a website. The goal of this project is to build a complete stack online application for Felix Hypercars. From the backend system, this website will be able to create CRUD (Create, Read, Update, and Delete) operations with values taken from the user. In this app you can crate your own user, read all your informatios, update your informations and delete your user.
+### Definition of CRUD Application
+```sh 
+CRUD stands for create, read, update, and delete, and it is a computer programming acronym that refers to the four functions that are required to develop a persistent storage application. 
+```
+
 
 What include the form ?
 - Username
@@ -135,20 +140,22 @@ Replace <password> with the password for the <username> user.
 
 
 
-# Security and Scalability
+# Security and Scalability of my website
 
 > Secure Hypertext Transfer Protocol is a Hypertext Transfer Protocol extension. It is often used on the Internet and is utilised for secure communication across a computer network. The Transport Layer Security (TLS) or Secure Sockets Layer (SSL) protocol is used to encrypt communication in HTTPS.
-![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/cluster0MongoDB.jpg?raw=true)
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/http_to_https-1.jpg?raw=true)
 
 >The connection to this site is using a valid, trusted server certificate issued by Amazon.
 The connection is encrypted and authentificated using TLS 1.2, ECDHE_RSA with P256, and AES_128_GCM.
-![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/cluster0MongoDB.jpg?raw=true)
+![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/security.jpg?raw=true)
 
+<br>
 
+# Conclusion and Reflection
 
+<br>
 
-
-# Photos of my website
+# Bellow is showing a short preview
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/1.jpg?raw=true)
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/2.jpg?raw=true)
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/3.jpg?raw=true)
