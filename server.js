@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 const morgan = require('morgan');
 const bodyparser = require('body-parser');
 const path = require('path');
+const uri = process.env.MONGODB_URI;
 
 const connectDB = require('./server/database/connection');
 const { options } = require('nodemon/lib/config');
