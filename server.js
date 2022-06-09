@@ -26,7 +26,11 @@ const PORT = process.env.PORT|| 8080
 app.use(morgan('tiny'));
 
 //mongodb connection
-connectDB();
+(async () => {
+    const connectionResponse = await connectDB();
+    console.log(connectionResponse);
+})()
+
 
 //parse request to body-parser
 app.use(bodyparser.urlencoded({extended:true}))
