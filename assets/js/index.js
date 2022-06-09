@@ -1,5 +1,5 @@
 
-
+const host = window.location.host.includes('localhost') ? 'http://localhost:8080' : 'https://websiteappfelix.herokuapp.com';
 
 $("#add_user").submit(function(event){
     alert("Data Inserted Successfully!");
@@ -17,7 +17,7 @@ $("#update_user").submit(function(event){
 
 
     var request = {
-        "url" : `${process.env.HOST}/api/users/${data.id}`,
+        "url" : `${host}/api/users/${data.id}`,
         "method" : "PUT",
         "data" : data
     }
@@ -34,7 +34,7 @@ if(window.location.pathname == "/"){
         var id = $(this).attr("data-id")
 
         var request = {
-            "url" : `${process.env.HOST}/api/users/${id}`,
+            "url" : `${host}/api/users/${id}`,
             "method" : "DELETE"
         }
 
