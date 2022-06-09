@@ -17,7 +17,7 @@ $("#update_user").submit(function(event){
 
 
     var request = {
-        "url" : `https://websiteappfelix.herokuapp.com/api/users/${data.id}`,
+        "url" : `${process.env.HOST}/api/users/${data.id}`,
         "method" : "PUT",
         "data" : data
     }
@@ -34,7 +34,7 @@ if(window.location.pathname == "/"){
         var id = $(this).attr("data-id")
 
         var request = {
-            "url" : `https://websiteappfelix.herokuapp.com/api/users/${id}`,
+            "url" : `${process.env.HOST}/api/users/${id}`,
             "method" : "DELETE"
         }
 
