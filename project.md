@@ -21,8 +21,8 @@
 
 ---------------------------------------------------------------------
 
->Introduction
->The use vehicle market is one of the most profitable businesses, especially >when it has a website. The goal of this project is to build a complete stack >online application for Felix Hypercars. From the backend system, this website >will be able to create CRUD (Create, Read, Update, and Delete) operations with >values taken from the user. In this app you can crate your own user, read all >your informatios, update your informations and delete your user. 
+>Introduction <br>
+The use vehicle market is one of the most profitable businesses, especially when it has a website. The goal of this project is to build a complete stack online application for Felix Hypercars. From the backend system, this website will be able to create CRUD (Create, Read, Update, and Delete) operations with values taken from the user. In this app you can crate your own user, read all your informatios, update your informations and delete your user. 
 
 What include the form ?
 - Username
@@ -105,6 +105,22 @@ npm mongoose - using this module we are going to connect this project with Mongo
 ```sh
 npm axios - is a library and makes easy to make a request in express application
 ```
+
+
+<br>
+<br>
+<br>
+
+# Database Design
+
+>MongoDB is a document database that stores data in a JSON-like format. MongoDB features a versatile data format that allows you to store unstructured data, as well as complete indexing and replication support through rich and straightforward APIs.
+
+
+
+<br>
+<br>
+<br>
+
 # Photos of my website
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/1.jpg?raw=true)
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/2.jpg?raw=true)
@@ -115,7 +131,8 @@ npm axios - is a library and makes easy to make a request in express application
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/7.jpg?raw=true)
 
 
-#redirect to the # post or ## post.
-[test](project.md#jos)
+
+
+
 
 
