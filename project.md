@@ -22,11 +22,15 @@
 ---------------------------------------------------------------------
 
 >Introduction <br>
-The use vehicle market is one of the most profitable businesses, especially when it has a website. The goal of this project is to build a complete stack online application for Felix Hypercars. From the backend system, this website will be able to create CRUD (Create, Read, Update, and Delete) operations with values taken from the user. In this app you can crate your own user, read all your informatios, update your informations and delete your user.
+The use vehicle market is one of the most profitable businesses, especially when it has a website. The goal of this project is to build a complete stack online application for Felix Hypercars. From the backend system, this website will be able to create CRUD (Create, Read, Update, and Delete) operations with values taken from the user. In this app you can create your own user, read all your informatios, update your informations and delete your user.
 ### Definition of CRUD Application
 ```sh 
 CRUD stands for create, read, update, and delete, and it is a computer programming acronym that refers to the four functions that are required to develop a persistent storage application. 
 ```
+## Sumarize the project
+
+>You can access the website just typing in your favorite browser https://websiteappfelix.herokuapp.com/  and straight forward you gonna see the website interface. I tried to create a nice and simple website. On the top a created a responsive NAVBAR ( Home / Our Products/ About Me/ Contact / Register/ Admin Panel) .All the buttons works perfect but are empty (#tag), is more for design. The NAVBAR is followed by a Title of my CRUD Table. A slideshow of three cars is running automatic for a great view. After header part is followed by CRUD table, when you can create an user typing your Name, Email, check if you are a Male or Female and check if you are Active or Inactive user. Presing Save Button your user is created automatically. After creation you can check the list of users with all informations, i created 2 Action buttons Edit and Delete.By clicking the Edit button, you can change all the information that a user has. Click Save button to save all the changes. If the user no longer exists, it can be deleted by pressing the Delete button. A pop-ul will show and ask you if you are sure about your request. Down bellow more div's are created just for design and showing some cars with any kind of informations. A fake customer's review was created but this can be transformed into a proper review section. Next you can see a contact div was created with a Map of London City Center(my address) with some informations about me, name, telephone, email, github account and a photo of me. More DIV's of informations about cars was created by admin (felix.tudorascu). The footer ends with some Social Icons like Github, Facebook, Twitter, Instagram, LinkedIn, Pinterest and all this icons are responsive including links to my Social profiles (some of them are empty just for privacy reasons). Down bellow you can see my Signature and all rights are reserved. 
+
 
 
 What include the form ?
@@ -152,10 +156,10 @@ The connection is encrypted and authentificated using TLS 1.2, ECDHE_RSA with P2
 <br>
 
 # Conclusion and Reflection
-
+>In conclusion, this project was not as easy as I thought, but I worked with pleasure. I encountered a lot of problems and errors, but as a conscientious student I tried to do as much research as possible on google, youtube and other sources. I hope that this project meets all the required criteria and brings me a suitable grade. All the code of this site can be found on my [Github](https://github.com/TudorascuFelixC/CRUD_APP_2022).
 <br>
 
-# Bellow is showing a short preview
+# Bellow is showing a short preview working on my Localhost:3000
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/1.jpg?raw=true)
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/2.jpg?raw=true)
 ![](https://github.com/TudorascuFelixC/CRUD_APP_2022/blob/main/assets/img/photos/3.jpg?raw=true)
