@@ -12,7 +12,7 @@ If you want to edit this project you must to download the files from my github a
 
 * windows operating system : recomanded Windows 10/11 pro.
 * This project was tested even on MacOS and Linux.
-Download and install Visual Studio Code [Visual Studio Code](https://code.visualstudio.com/download)
+Download and install [Visual Studio Code](https://code.visualstudio.com/download)
 After the install you can type in Terminal the next command yo create and build your depedensies and envirement.
  ```sh
 npm i express - im using this to rapidly develop the node application
